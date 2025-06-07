@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barrio&family=Molengo&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vincent Plater | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+
+
+  <!-- Header -->
+  <header>
+    <nav >
+      <h1>Vincent Plater</h1>
+      <ul>
+        <li><a href="#about">Who Am I ?</a></li>
+        <li><a href="#skills">My Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About -->
+  <section id="about" >
+    <div class = "about-box">
+      <div class = "profile">
+        <img class = "profile-img" src = "Resources/Profile.jpg">
+       <div class = "profile-para">
+        <p class = "profile-font">
+          <span>Passion, Empathy, Grit. </span>
+          <span>Big Picture Thinking.</span>
+          <span>Designing for our Future.</span>
+        </p>
+       </div>
+
+      </div>
+      <div class = "description"> 
+        <p>My name is Vincent, I graduated from the University of Sydney with a Bachelor of Design Computing (UX Design). I 
+          am passionate, hard working and personable. I utilise Design Thinking to create inclusive, accessible and impactful design solutions.
+          I am a great addition to any design team with my broad range of technical skills
+          and ability to integrate into different work environments with my excellent communication. Please review my work,
+          I look forward to helping your business make an impact.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Work -->
+  <section id="skills" class="container">
+    <h2>My Skills in Practice</h2>
+    <div class="skills-grid">
+
+        <div class="skills">
+          <h3>UI Design</h3>
+          <p>Wire framing, Mockups and designing Web flows are my bread and butter. I can create functional figma prototypes
+             and can implement these designs with HTML CSS and Javascript. I also have basic programming skills in python.</p>
+          <div class="skills-imgs">
+          <img src="Resources/PhoneMockups.png" class = "PhoneMockups">
+          <img src="Resources/LaptopMockup.png" class = "LaptopMockups">
+          <video width ="440px" height = "600px"  autoplay muted loop>
+            <source  src="Resources/KioskAppFigma.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          </div>
+
+
+        </div>
+
+
+      <div class="skills">
+        <h3>Modelling</h3>
+        <p>I have skills in Rhino, Fusion 360 and Blender. I am proficient in modelling and rendering</p>
+        <div class="carousel-container">
+          <input type="radio" name="carousel" id="slide1" checked>
+          <input type="radio" name="carousel" id="slide2">
+          <input type="radio" name="carousel" id="slide3">
+        
+          <div class="carousel-slides">
+            <div class="carousel-slide">
+              <img src="Resources/Second Angle Final Render.jpg" alt="Slide 1" id= "room">
+            </div>
+            <div class="carousel-slide" >
+              <img src="Resources/Final Render Environment 2.png" alt="Slide 2" >
+            </div>
+            <div class="carousel-slide" id = "madsen">
+              <img src="Resources/madsen.png" alt="Slide 3">
+            </div>
+          </div>
+        
+          <!-- Arrows for Slide 1 -->
+          <div class="carousel-arrows" id="arrows1">
+            <label for="slide3" class="arrow left">&#10094;</label> <!-- loops back to last -->
+            <label for="slide2" class="arrow right">&#10095;</label>
+          </div>
+          
+          <!-- Arrows for Slide 2 -->
+          <div class="carousel-arrows" id="arrows2">
+            <label for="slide1" class="arrow left">&#10094;</label>
+            <label for="slide3" class="arrow right">&#10095;</label>
+          </div>
+          
+          <!-- Arrows for Slide 3 -->
+          <div class="carousel-arrows" id="arrows3">
+            <label for="slide2" class="arrow left">&#10094;</label>
+            <label for="slide1" class="arrow right">&#10095;</label> <!-- loops forward to first -->
+          </div>
+        
+
+        </div>
+        
+        </div>
+        
+        
+      <div class="skills">
+        <h3>Animation</h3>
+        <p>I take passion in the creative side of my work and love to draw, animate and create digital art in Blender, After Effects and photo/video editing software.</p>
+        <div class= "skills-videos">
+          <video width ="400px" height = "400px"  autoplay muted loop>
+            <source  src="Resources/FlowerAnimation.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+          <video class = "doodle" width ="400px" height = "400px"  autoplay muted loop>
+            <source  src="Resources/Doodle.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+          <video width ="400px" height = "400px"  autoplay muted loop>
+            <source  src="Resources/AdobeAnim.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+          <video width ="400px" height = "400px"  autoplay muted loop>
+            <source  src ="Resources/GameAnim.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+
+        </div>
+      </div>
+
+      <div class="skills">
+        <h3>Game Design and VR</h3>
+        <p>I have experience creating VR applications and creating basic games in Unity. I have expereince working on multiple projects that
+          require character movement, head/view tracking (VR and AR), button clicks and user interactions. Combining my modeling, programming,
+          UI and design skills i can create unique and immersive experiences for users.</p>
+        <div class= "game-imgs">
+          <img src="Resources/GameCollage.png" class = "GameCollage">
+          <video id="GameDemo" width ="800px" height = "400px"  autoplay muted loop>
+            <source  src="Resources/GameDemo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <form action="mailto:your@email.com" method="post" enctype="text/plain">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+
+
+</body>
+</html>
