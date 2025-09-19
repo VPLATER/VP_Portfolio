@@ -369,6 +369,10 @@ footer {
 
 @media (max-width: 768px) {
 
+  .container {
+  width: 90%;
+}
+
 .skills-videos {
   margin: 40px;
   display: grid;
@@ -389,19 +393,19 @@ footer {
 
 nav ul {
   display: flex;
-  flex-direction: column;
-  gap: 0px;
+  flex-direction: row;
+  gap: 2vw;
   list-style: none;
 }
 nav ul li a {
 
-  font-size: 2vw;
+  font-size: 2.5vw;
 
 }
 p {
-  font-size: 2vw;
+  font-size: 3vw;
 }
 nav h1 {
-  font-size: 4vw;
+  font-size: 6vw;
 }
 }
