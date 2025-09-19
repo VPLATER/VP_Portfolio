@@ -68,7 +68,6 @@ nav ul li a:hover {
 }
 /* Profile section styling */
 .profile  {
-  margin: 100px 100px 0px 100px;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
@@ -111,7 +110,7 @@ p {
   font-family: "Barrio", system-ui;
   font-weight: 400;
   font-style: normal;
-  font-size: 1.8em;
+  font-size: 3vw;
   white-space: nowrap;
   margin-right: 60px;
 }
@@ -124,7 +123,7 @@ h1, h2, h3 {
 
 .description {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  width: 80%;
+  width: 100%;
   margin: 40px;
 }
 /* Skills*/
