@@ -58,7 +58,7 @@ nav ul li a {
   text-decoration: none;
   color: #ffffff;
   font-weight: normal;
-  font-size: 1vw;
+  font-size: 1.2vw;
 
 }
 
@@ -72,9 +72,8 @@ nav ul li a:hover {
   align-items: center;
   margin: 100px 100px 0px 100px;
   justify-content: center;
-  padding-top: 3vw;
+  padding: 3vw;
   width:70%;
-  
 }
 
 
@@ -383,17 +382,26 @@ footer {
 }
 
 .description{
-  width: 90%;
+  width: 100%;
 }
+
+
+
 nav ul {
   display: flex;
   flex-direction: column;
-  gap: 0.4vw;
+  gap: 0px;
   list-style: none;
 }
+nav ul li a {
 
+  font-size: 2vw;
+
+}
 p {
   font-size: 2vw;
 }
-
+nav h1 {
+  font-size: 4vw;
+}
 }
