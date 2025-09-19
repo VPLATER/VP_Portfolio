@@ -1,3 +1,5 @@
+
+
 /* Reset */
 * {
   margin: 0;
@@ -85,8 +87,8 @@ nav ul li a:hover {
   border:2px solid #5e5e5e;
   border-radius: 5px;
   margin-left: 60px;
-  width:400px;
-  height:400px;
+  width:40%;
+  height:40%;
   box-shadow: 0 3px 7px rgba(125, 125, 125, 0.779);
 }
 
@@ -95,6 +97,7 @@ nav ul li a:hover {
   flex-direction: column;
 }
 span {
+  font-size: 90%;
   word-spacing: -20;
   letter-spacing: -20;
   line-height: 5em;
@@ -121,7 +124,7 @@ h1, h2, h3 {
 
 .description {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  width: 1000px;
+  width: 80%;
   margin: 40px;
 }
 /* Skills*/
@@ -147,14 +150,13 @@ h1, h2, h3 {
 .PhoneMockups {
   margin-left: 20px;
   margin-right: 20px;
-  width: 1000px;
+  width: 100%;
   height: 400x;
   background: rgb(0, 0, 0);
 }
 
 .LaptopMockups {
-  width: 1000px;
-  height: 275px;
+  width: 100%;
   background: #000000;
 }
 
@@ -302,8 +304,7 @@ img {
 
 /* Game Design */
 .GameCollage {
-  width:800px;
-  height: 800px;
+  width:80%;
 }
 
 .game-imgs {
@@ -361,3 +362,20 @@ footer {
 }
 
 
+/*Media query*/
+
+@media (max-width: 768px) {
+
+.skills-videos {
+  margin: 40px;
+  display: grid;
+  row-gap: 40px;
+  grid-template-columns: auto;
+  align-items: center;
+  justify-items: center;
+  background: #000000;
+  padding: 20px;
+
+}
+
+}
