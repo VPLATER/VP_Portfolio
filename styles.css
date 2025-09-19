@@ -71,6 +71,7 @@ nav ul li a:hover {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
+  margin: 100px 100px 0px 100px;
   justify-content: center;
   
 }
