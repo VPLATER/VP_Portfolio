@@ -389,6 +389,9 @@ footer {
   width: 100%;
 }
 
+.about-box {
+  max-width: fit-content;
+}
 
 
 nav ul {
